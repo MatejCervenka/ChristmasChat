@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="container">
+    <h1 id="roomTitle">Chat Room</h1>
+    <div id="messages" class="chat-box"></div>
+    <form id="messageForm">
+        <input type="text" id="messageInput" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+    </form>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
